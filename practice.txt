@@ -1,0 +1,29 @@
+class Person (val name : Name) {
+
+}
+
+val person = Person();
+Name name = person.name
+name.setFirstName()
+
+
+Nested Classes
+
+
+https://github.com/SarthakMakhija/kotlin-training-scratchpad
+https://github.com/kotlintest/kotlintest/blob/master/doc/reference.md
+
+
+Exercise 2: 
+1) Data class - Done
+2) Companion Object For Movie and MovieObject - Done
+3) Operator Function 
+4) Range Function movie1 in MovieStore
+5) Using Enum For Genre - Done 
+6) Destructuring Declaration in Movie without creating the data class
+
+
+
+
+
+
