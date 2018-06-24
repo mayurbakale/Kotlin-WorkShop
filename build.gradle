@@ -28,5 +28,7 @@ repositories {
 
 dependencies {
     compile     "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    compile     "khttp:khttp:0.1.0"
+    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.23.3'
     testCompile "io.kotlintest:kotlintest-runner-junit5:3.1.0"
 }

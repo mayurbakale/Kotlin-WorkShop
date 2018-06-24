@@ -1,5 +1,4 @@
 import io.kotlintest.Description
-import io.kotlintest.should
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.FunSpec
 import java.time.LocalDate
