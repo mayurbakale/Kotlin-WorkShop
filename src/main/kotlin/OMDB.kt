@@ -6,13 +6,15 @@ import kotlinx.coroutines.experimental.async
 import kotlinx.coroutines.experimental.runBlocking
 
 fun main(args : Array<String>) {
-   runBlocking {
-       var deferred: Deferred<OMDBMovie> = async {
-           aysncFun()
-       }
-       println(deferred.await())
-   }
+    var movie =
+            runBlocking {
+                var deferred: Deferred<OMDBMovie> = async {
+                    aysncFun()
+                }
+            }
+    println(movie)
 }
+
 
 suspend fun aysncFun() :OMDBMovie{
     val response = get(url = "http://www.omdbapi.com", params = mapOf("i" to "tt3896198", "apikey" to "*******"))
